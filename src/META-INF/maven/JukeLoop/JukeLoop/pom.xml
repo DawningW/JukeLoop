@@ -2,33 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>JukeLoop</groupId>
   <artifactId>JukeLoop</artifactId>
-  <version>0.1.12</version>
+  <version>0.1.11</version>
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.authors>metalhedd</project.authors>
         <project.main>com.norcode.bukkit.jukeloop.JukeLoop</project.main>
   </properties>
-
-    <scm>
-        <connection>scm:git:git://github.com/andrepl/Jukeloop.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/andrepl/Jukeloop.git</developerConnection>
-        <url>https://github.com/andrepl/Jukeloop</url>
-    </scm>
-
-
-    <distributionManagement>
-        <repository>
-            <id>mvm-releases</id>
-            <name>releases</name>
-            <url>http://maven.minevsmine.com/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>mvm-snapshots</id>
-            <name>snapshots</name>
-            <url>http://maven.minevsmine.com/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <build>
         <resources>
             <resource>
@@ -37,14 +16,6 @@
             </resource>
         </resources>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.7</version>
-                <configuration>
-                    <skip>false</skip>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

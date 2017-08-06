@@ -1,0 +1,9 @@
+name: JukeLoop
+version: 0.2.0
+description: Makes jukeboxes loop
+author: [metalhedd, QingChenW]
+main: qingchenw.repack.com.norcode.bukkit.jukeloop.JukeLoopPlugin
+
+permissions:
+   jukeloop.use:
+       default: true
